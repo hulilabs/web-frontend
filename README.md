@@ -1,5 +1,5 @@
 # webpack
-Dockerized webpack and webpack-dev-server container, based in Alpine to a small NodeJS container.
+Dockerized webpack and webpack-dev-server container, based in Alpine to produce a small NodeJS container.
 
 ## About webpack
 From [webpack's website](https://webpack.js.org/):
