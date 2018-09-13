@@ -25,7 +25,7 @@ docker run -v $(pwd):/srv -w /srv/resource -ti huli/webpack webpack --config web
 ```
 Assuming that:
 - Your source is located in `./resource` folder
-- There's a `webpack.config.js` file inside `./resource` folde
+- There's a `webpack.config.js` file inside `./resource` folder
 
 
 ### Running webpack-dev-server
@@ -36,5 +36,5 @@ docker run -v $(pwd):/srv -w /srv/resource -p 9000 -ti huli/webpack webpack-dev-
 ```
 Assuming that:
 - Your source is located in `./resource` folder
-- There's a `webpack.config.js` file inside `./resource` folde
+- There's a `webpack.config.js` file inside `./resource` folder
 - You configured webpack-dev-server to use port 9000
