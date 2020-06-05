@@ -6,6 +6,7 @@ ENV PATH /install/node_modules/.bin:$PATH
 RUN npm install -g \
     ansi-html \
     ansi-regex \
+    gulp-cli \
     html-entities \
     loglevel \
     sockjs-client \
