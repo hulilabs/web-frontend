@@ -1,4 +1,4 @@
-FROM node:17.4.0-alpine3.15
+FROM node:20.11.0-alpine3.19
 
 ENV NODE_PATH /install/node_modules/
 ENV PATH /install/node_modules/.bin:$PATH
@@ -8,7 +8,6 @@ RUN apk add --no-cache python3 make g++
 RUN npm install -g \
     ansi-html \
     ansi-regex \
-    gulp-cli \
     html-entities \
     loglevel \
     sockjs-client \

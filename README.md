@@ -43,3 +43,15 @@ Assuming that:
 - Your source is located in `./resource` folder
 - There's a `webpack.config.js` file inside `./resource` folder
 - You configured webpack-dev-server to use port 9000
+
+## Building image for testing
+
+Use this command to build and push image for testing, replace `<tag>` with the appropiate value.
+```bash
+docker build . -t huli/web-frontend:<tag>
+```
+
+Build multiarch image and push to registry
+```bash
+docker buildx build --platform linux/amd64,linux/arm64 -t huli/web-frontend:<tag> --push .
+```

@@ -1,10 +1,10 @@
 name: Build Multi-arch Image
 
-on: 
+on:
   push:
     branches:
       - vite
-      - webpack5.68
+      - webpack5.90
 
 jobs:
   build:
